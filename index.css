@@ -1,0 +1,25 @@
+button
+{   transform: translateX(800px)translateY(325px);
+    float: left;
+
+}
+button:hover
+{
+  position:relative;
+  margin-right:0px;
+  display:block;
+  width:10%;
+  height:20%;
+}
+div
+{
+  color: blue;
+transform: translateX(805px)translateY(320px);
+}
+
+@media only screen and (max-width: 600px) {
+  button
+  {
+    transform: translateX(140px) translateY(325px);
+  }
+}
